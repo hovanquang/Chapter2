@@ -1,0 +1,37 @@
+<h1>Book</h1>
+
+
+<table>
+<tr>
+	<td>STT
+	</td>
+	<td>Name
+	</td>
+	<td>Email
+	</td>
+	<td>Ngay 1
+	</td>
+	<td>
+	Ngay 2
+	</td>
+	<td>
+	DIa diem
+	</td>
+
+</tr>
+<%= @test.each  do |xx| %>
+
+<tr>
+
+	<td>
+	</td>
+	<td><%=  xx.name %>
+	</td>
+	<td><%=  xx.diachi %>
+	</td>
+	<td><%=  xx.ngaysinh %>
+	</td>
+	
+</tr>
+<% end %>
+</table>
